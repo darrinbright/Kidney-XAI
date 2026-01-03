@@ -99,20 +99,6 @@ python train.py \
 | `--label_smoothing` | 0.1 | Label smoothing factor |
 | `--patience` | 5 | Early stopping patience |
 
-## Model Architecture
-
-### Ensemble Components
-
-1. **MobileNetV2**: Lightweight architecture for efficient inference
-2. **ResNet50**: Deep residual network for robust feature extraction
-3. **EfficientNet-B1**: Compound scaling for optimal accuracy-efficiency trade-off
-
-### Custom Modifications
-
-- Multi-layer classifier heads with batch normalization and dropout
-- Dynamic ensemble weighting based on validation performance
-- Focal loss with class-specific weights for imbalanced data
-
 ## Explainability
 
 ### GradCAM Visualization
