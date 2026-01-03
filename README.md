@@ -1,4 +1,4 @@
-# Kidney-XAI: Explainable AI for Kidney Disease Classification
+# Explainable Transfer Learning Ensemble with Dynamic Weighting for Kidney Disease Classification in CT Images
 
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-ee4c2c.svg)](https://pytorch.org/)
