@@ -20,12 +20,6 @@ Kidney-XAI implements an ensemble of deep learning models (MobileNetV2, ResNet50
 
 ## Dataset
 
-The model classifies kidney CT scans into four categories:
-- **Cyst**: Fluid-filled sacs in the kidney
-- **Normal**: Healthy kidney tissue
-- **Stone**: Kidney stones (nephrolithiasis)
-- **Tumor**: Abnormal tissue growth
-
 ### Dataset Structure
 
 ```
