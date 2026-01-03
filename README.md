@@ -176,8 +176,8 @@ If you use this code in your research, please cite:
 
 ```bibtex
 @software{kidney_xai_2026,
-  title={Kidney-XAI: Explainable AI for Kidney Disease Classification},
-  author={Darrin Bright},
+  title={Explainable Transfer Learning Ensemble with Dynamic Weighting for Kidney Disease Classification in CT Images},
+  author={Darrin Bright, Praveen Kumar Reddy},
   year={2026},
   url={https://github.com/darrinbright/Kidney-XAI}
 }
