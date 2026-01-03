@@ -126,8 +126,7 @@ Kidney-XAI/
 ├── requirements.txt         # Python dependencies
 ├── README.md               # Documentation
 ├── .gitignore              # Git ignore rules
-├── data/                   # Dataset directory
-├── checkpoints/            # Saved models
+├── data/                   # Dataset directory      
 └── results/                # Outputs and visualizations
     ├── GradCAM/
     ├── LIME/
@@ -135,26 +134,6 @@ Kidney-XAI/
     ├── ROC/
     └── TrainingValidation/
 ```
-
-## Technical Details
-
-### Training Strategy
-
-- **Optimizer**: AdamW with model-specific learning rates
-- **Scheduler**: Linear warmup (5 epochs) + ReduceLROnPlateau
-- **Loss Function**: Focal Loss with label smoothing
-- **Mixed Precision**: Automatic mixed precision (AMP) for faster training
-- **Gradient Clipping**: Max norm of 0.3 to prevent exploding gradients
-- **Gradient Accumulation**: 2 steps for effective larger batch size
-
-### Data Processing
-
-- **Train Split**: 70% with class balancing
-- **Validation Split**: 15%
-- **Test Split**: 15%
-- **Image Size**: 224×224 pixels
-- **Normalization**: ImageNet statistics
-- **Augmentation**: Random crops, flips, rotations, color jitter, random erasing
 
 ## Citation
 
