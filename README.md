@@ -13,7 +13,7 @@ Kidney-XAI implements an ensemble of deep learning models (MobileNetV2, ResNet50
 ### Architecture
 
 <p align="center">
-  <img src="assets/architecture.png" alt="Kidney-XAI Architecture" width="50%">
+  <img src="assets/architecture.png" alt="Kidney-XAI Architecture" width="40%">
 </p>
 
 *Figure: Ensemble architecture combining MobileNetV2, ResNet50, and EfficientNet-B1 with dynamic weighting and explainability modules.*
