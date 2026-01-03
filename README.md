@@ -18,15 +18,6 @@ Kidney-XAI implements an ensemble of deep learning models (MobileNetV2, ResNet50
 
 *Figure: Ensemble architecture combining MobileNetV2, ResNet50, and EfficientNet-B1 with dynamic weighting and explainability modules.*
 
-### Key Features
-
-- **Ensemble Learning**: Weighted combination of three state-of-the-art CNN architectures
-- **Explainable AI**: GradCAM and LIME visualizations for model interpretability
-- **Advanced Training**: Focal loss, label smoothing, mixed precision training, gradient accumulation
-- **Data Augmentation**: Medical image-specific augmentation pipeline
-- **Class Balancing**: Automated oversampling for imbalanced datasets
-- **Test-Time Augmentation**: Enhanced inference accuracy through TTA
-
 ## Dataset
 
 The model classifies kidney CT scans into four categories:
@@ -64,7 +55,7 @@ data/
 ### Setup
 
 ```bash
-git clone https://github.com/yourusername/Kidney-XAI.git
+git clone https://github.com/darrinbright/Kidney-XAI.git
 cd Kidney-XAI
 
 conda create -n kidney-xai python=3.8
@@ -141,21 +132,6 @@ Local Interpretable Model-agnostic Explanations for prediction understanding:
 # LIME visualizations saved to ./results/LIME/
 ```
 
-## Results
-
-### Performance Metrics
-
-| Model | Accuracy | Precision | Recall | F1-Score | ROC AUC |
-|-------|----------|-----------|--------|----------|---------|
-| MobileNetV2 | 0.XXX | 0.XXX | 0.XXX | 0.XXX | 0.XXX |
-| ResNet50 | 0.XXX | 0.XXX | 0.XXX | 0.XXX | 0.XXX |
-| EfficientNet-B1 | 0.XXX | 0.XXX | 0.XXX | 0.XXX | 0.XXX |
-| **Ensemble** | **0.XXX** | **0.XXX** | **0.XXX** | **0.XXX** | **0.XXX** |
-
-### Visualizations
-
-Training curves, confusion matrices, ROC curves, and t-SNE embeddings are automatically generated and saved to `./results/`.
-
 ## Project Structure
 
 ```
@@ -201,9 +177,9 @@ If you use this code in your research, please cite:
 ```bibtex
 @software{kidney_xai_2026,
   title={Kidney-XAI: Explainable AI for Kidney Disease Classification},
-  author={Your Name},
+  author={Darrin Bright},
   year={2026},
-  url={https://github.com/yourusername/Kidney-XAI}
+  url={https://github.com/darrinbright/Kidney-XAI}
 }
 ```
 
@@ -213,4 +189,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Contact
 
-For questions or collaborations, please contact: your.email@example.com
+For questions or collaborations, please contact: darrin.bright2022@vitstudent.ac.in
