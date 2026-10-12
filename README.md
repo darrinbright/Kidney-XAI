@@ -10,14 +10,6 @@ Deep learning ensemble framework for automated kidney disease classification fro
 
 Kidney-XAI implements an ensemble of deep learning models (MobileNetV2, ResNet50, EfficientNet-B1) for multi-class kidney disease classification. The framework provides interpretable predictions through gradient-based and perturbation-based explainability techniques.
 
-### Architecture
-
-<p align="center">
-  <img src="assets/architecture.png" alt="Kidney-XAI Architecture" width="40%">
-</p>
-
-*Figure: Ensemble architecture combining MobileNetV2, ResNet50, and EfficientNet-B1 with dynamic weighting and explainability modules.*
-
 ## Dataset
 
 ### Dataset Structure
@@ -127,19 +119,6 @@ Kidney-XAI/
     ├── ConfusionMatrix/
     ├── ROC/
     └── TrainingValidation/
-```
-
-## Citation
-
-If you use this code in your research, please cite:
-
-```bibtex
-@software{kidney_xai_2026,
-  title={Explainable Transfer Learning Ensemble with Dynamic Weighting for Kidney Disease Classification in CT Images},
-  author={Darrin Bright, Praveen Kumar Reddy},
-  year={2026},
-  url={https://github.com/darrinbright/Kidney-XAI}
-}
 ```
 
 ## Contact
