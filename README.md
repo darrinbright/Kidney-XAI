@@ -8,7 +8,7 @@ Deep learning ensemble framework for automated kidney disease classification fro
 
 ## Overview
 
-Kidney-XAI implements an ensemble of deep learning models (MobileNetV2, ResNet50, EfficientNet-B1) for multi-class kidney disease classification. The framework provides interpretable predictions through gradient-based and perturbation-based explainability techniques.
+Kidney-XAI implements an ensemble of deep learning models for multi-class kidney disease classification. The framework provides interpretable predictions through gradient-based and perturbation-based explainability techniques.
 
 ## Dataset
 
